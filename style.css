@@ -755,7 +755,7 @@ body {
         grid-template-columns: 61px 1fr 52px 68px;
         gap: 27px;
         padding-bottom: 13px;
-        margin-bottom: 20px;
+       
         
     }
     
@@ -823,3 +823,4 @@ body {
         height: 80px;
     }
 }
+
