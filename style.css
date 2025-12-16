@@ -104,7 +104,6 @@ body {
 
 .header {
     background: #FFFFFF;
-    height: 100px;
     padding: 20px 40px 0;
     display: flex;
     justify-content: space-between;
@@ -824,6 +823,7 @@ body {
         height: 80px;
     }
 }
+
 
 
 
