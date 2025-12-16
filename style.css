@@ -20,7 +20,7 @@ body {
 
 .sidebar {
     width: 250px;
-    background: #FAFBFF;
+    background: #FFFFFF;
     position: fixed;
     top: 0;
     left: 0;
@@ -822,6 +822,7 @@ body {
         height: 80px;
     }
 }
+
 
 
 
