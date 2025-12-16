@@ -63,8 +63,7 @@ body {
 }
 
 .menu-item.active {
-    
-    background: rgb(255 255 255 / 5%);
+    background: #FFFFFF;
 }
 
 .menu-item.active::before {
@@ -823,6 +822,7 @@ body {
         height: 80px;
     }
 }
+
 
 
 
