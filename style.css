@@ -406,6 +406,7 @@ body {
 
 .investment-info {
     flex: 1;
+    min-width: 0;
 }
 
 .investment-name {
@@ -503,7 +504,10 @@ body {
     grid-template-columns: 46px 1fr 39px 51px;
     gap: 20px;
     padding: 12px 0;
-    border-bottom: 1px solid #F4F5F7;
+}
+
+.table-row:not(:last-child) {
+    border-bottom: none;
 }
 
 .table-cell {
@@ -608,7 +612,6 @@ body {
         height: 21px;
     }
     
-    /* ПЕРВЫЙ ГРАФИК: 427x200px → 569x267px */
     .chart-container:first-child .chart-image-container {
         width: 569px;
         height: 267px;
@@ -619,7 +622,6 @@ body {
         height: 267px;
     }
     
-    /* ВТОРОЙ ГРАФИК: 420x191px → 560x255px */
     .chart-container:nth-child(2) .chart-image-container {
         width: 560px;
         height: 255px;
