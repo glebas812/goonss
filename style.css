@@ -63,7 +63,8 @@ body {
 }
 
 .menu-item.active {
-    background: rgba(24, 20, 243, 0.05);
+    
+    background: rgb(255 255 255 / 5%);
 }
 
 .menu-item.active::before {
@@ -777,7 +778,6 @@ body {
     }
     
     .header {
-        height: 133px;
         padding: 27px 40px 0;
     }
     
@@ -823,6 +823,7 @@ body {
         height: 80px;
     }
 }
+
 
 
 
