@@ -14,7 +14,7 @@ body {
     display: flex;
     min-height: 100vh;
     position: relative;
-    max-width: 1920px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -102,8 +102,10 @@ body {
     background: #F5F7FA;
 }
 
+
 .header {
     background: #FFFFFF;
+    height: 100px;
     padding: 20px 40px 0;
     display: flex;
     justify-content: space-between;
@@ -173,16 +175,17 @@ body {
 }
 
 .header-icon {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     object-fit: contain;
 }
 
 .user-avatar {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     overflow: hidden;
+    border: 2px solid #F5F7FA;
 }
 
 .user-avatar img {
@@ -492,7 +495,7 @@ body {
     gap: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #F4F5F7;
-     margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .header-cell {
@@ -542,11 +545,9 @@ body {
     font-weight: 500;
 }
 
-
 .stocks-table .table-row {
     border-bottom: none;
 }
-
 
 
 @media (min-width: 1920px) {
@@ -562,6 +563,55 @@ body {
     .main-content {
         margin-left: 250px;
         max-width: calc(1920px - 250px);
+    }
+    
+    /* Хедер для 1920px */
+    .header {
+        height: 100px;
+        padding: 20px 53.33px 0;
+    }
+    
+    .page-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .search-container {
+        width: 340px;
+        height: 66.66px;
+        border-radius: 53.33px;
+        padding: 0 26.66px;
+        gap: 20px;
+    }
+    
+    .search-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .search-input {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    
+    .header-icons {
+        gap: 26.66px;
+    }
+    
+    .icon-circle {
+        width: 66.66px;
+        height: 66.66px;
+    }
+    
+    .header-icon {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .user-avatar {
+        width: 66.66px;
+        height: 66.66px;
+        border: 2.66px solid #F5F7FA;
     }
     
     .stats-section,
@@ -755,8 +805,6 @@ body {
         gap: 27px;
         padding-bottom: 13px;
         margin-bottom: 0px;
-       
-        
     }
     
     .header-cell {
@@ -775,57 +823,4 @@ body {
         font-size: 21px;
         line-height: 25px;
     }
-    
-    .header {
-        padding: 27px 40px 0;
-    }
-    
-    .page-title {
-        font-size: 37px;
-        line-height: 45px;
-    }
-    
-    .search-container {
-        width: 340px;
-        height: 67px;
-        border-radius: 53px;
-        padding: 0 27px;
-        gap: 20px;
-    }
-    
-    .search-icon {
-        width: 27px;
-        height: 27px;
-    }
-    
-    .search-input {
-        font-size: 20px;
-        line-height: 24px;
-    }
-    
-    .header-icons {
-        gap: 27px;
-    }
-    
-    .icon-circle {
-        width: 67px;
-        height: 67px;
-    }
-    
-    .header-icon {
-        width: 33px;
-        height: 33px;
-    }
-    
-    .user-avatar {
-        width: 80px;
-        height: 80px;
-    }
 }
-
-
-
-
-
-
-
